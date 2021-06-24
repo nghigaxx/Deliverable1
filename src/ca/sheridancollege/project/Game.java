@@ -26,7 +26,7 @@ public class Game
       String name;
       String input;
 
-      // ask for nickname
+      // ask for name
       System.out.println("What nickname would you like to have?");
       input = scanner.nextLine();
       name = input;
