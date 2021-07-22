@@ -114,7 +114,7 @@ public class Game
                System.out.println(dealer.getName() + " drew another card");
                System.out.println();
                System.out.println(dealer.getHandAsString(false));
-               if (dealer.getHandSum() == 15) {
+               if (dealer.getHandSum() == 21) {
                   System.out.println("Blackjack! Dealer won.");
                   gameOver = true;
                }
